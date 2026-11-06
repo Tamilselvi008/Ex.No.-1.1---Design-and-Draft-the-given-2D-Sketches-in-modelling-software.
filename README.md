@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ad59d66-3a6e-4dcf-af08-c82e2334ac83" /># Ex.No.-1.1-Design and Draft the given 2D Sketches in modelling software.
+# Ex.No.-1.1-Design and Draft the given 2D Sketches in modelling software.
 
 ## AIM
 
