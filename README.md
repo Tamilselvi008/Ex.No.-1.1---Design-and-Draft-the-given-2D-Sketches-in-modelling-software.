@@ -35,7 +35,7 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 7. Set the pattern quantity to 6 and the angle to 360°.
 8. Click OK to complete the pattern.
 9. Six equally spaced circles are now arranged around the central Ø40 mm circle.
- <img width="1920" height="1010" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/22cea5d1-39f8-4bdf-9bef-22939c4eb406" />
+ <img width="1920" height="1007" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/d61ca758-f90a-47eb-9368-1acedc7d9a81" />
 
 
 3. Creating the upper circular features
@@ -45,7 +45,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 4. Position the centre of these circles along the vertical centreline.
 5. Using the Sketch Dimension (D) tool, set the vertical distance between the sketch origin and the centre of the upper circular feature to 65 mm.
 6. Ensure that both circles are concentric and properly aligned with the vertical centreline.
-   
+   <img width="1920" height="1017" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/d022ea8a-af96-4a21-a8d5-58097efbf681" />
+
 4. Creating the upper curved portion
 1. Select the Circle tool from the Sketch Create toolbar.
 2. Draw a circle with a radius of 64 mm to construct the curved outer boundary.
@@ -62,13 +63,15 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 3. Draw another circle at the same centre and apply a radius of 7 mm.
 4. These concentric circles form the left-side circular feature.
    
+<img width="1920" height="1000" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/16f71d6d-dac1-4d34-abc9-d11dc804f713" />
 
 6. Creating the curved portion around the left-side feature
 1. Select the Circle tool from the Create toolbar.
 2. Draw a circle with a radius of 20 mm near the left-side circular feature.
 3. Position it to create the required curved connection between the side feature and the main body.
 4. Select the Trim option from the Modify toolbar or press T.
-   <img width="1920" height="1017" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/7b007c42-253e-47e3-96db-4b1617186fb9" />
+  <img width="1920" height="1004" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/fcc3a364-930a-466e-818d-4a59fa1f700e" />
+
 
 6. Remove the unwanted portions of the circle.
 7. Retain the required arc that forms the smooth connecting boundary.
@@ -79,6 +82,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 3. Apply a radius of 20 mm to the outer circle.
 4. Draw a smaller concentric circle inside it.
 5. Apply a radius of 10 mm to the inner circle.
+   <img width="1920" height="1006" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/492ba925-ea39-4913-9518-02508d94862b" />
+
 
 8. Creating the lower connecting curve
 1. Select the Circle tool from the Sketch Create toolbar.
@@ -88,8 +93,9 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 5. Retain only the required arc for the outer boundary.
 6. Navigate to the Constraints section of the Sketch toolbar.
 8. Select the Tangent Constraint option.
-   <img width="1920" height="1010" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/555f9f06-eed8-4082-8e4f-4029a75108bb" />
+   <img width="1920" height="1007" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/9bcf6dc9-c0a4-4070-88f4-500f5ac5bcfc" />
 
+  
 10. Select the required arc and the adjacent curve or circle to establish a smooth tangent connection.
 11. Repeat the tangent constraint wherever necessary to obtain a smooth and continuous outer profile.
 9. Mirroring the sketch using the Mirror option
@@ -101,7 +107,7 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 6. Click OK to complete the mirroring operation.
 7. The selected geometry is now reproduced symmetrically on the opposite side.
 8. Check both sides to ensure that the mirrored curves are properly aligned and connected.
-   <img width="1920" height="1024" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/f17c6e20-8041-4339-818d-e39bf7d5675d" />
+  <img width="1920" height="997" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/e8fc1fdb-c260-445b-8596-e045c1e6bfbd" />
 
 10. Applying constraints and completing the sketch
 1. Examine the complete sketch and identify any curves that need additional constraints.
@@ -111,6 +117,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 5. Remove any unnecessary or unwanted sketch geometry using the Trim command.
 6. Ensure that the outer profile is properly connected and symmetrical.
 7. After verifying the dimensions and constraints, click Finish Sketch in the top-right corner of the Fusion workspace.
+8. <img width="1920" height="1007" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/65364f46-d140-41b6-aa88-f12bb1015d89" />
+
 11. Extruding the completed sketch
 1. After finishing the sketch, navigate to the Solid workspace.
 2. Select the Extrude option from the Create toolbar.
@@ -119,7 +127,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 5. Select the appropriate extrusion direction.
 6. Check the preview to ensure that the profile is extruded correctly.
 7. Click OK to complete the operation.
-   <img width="1920" height="1008" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/1778659f-731b-4f69-8b82-f88cc478b0a3" />
+ <img width="1920" height="1017" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/e4ab06df-8754-41ec-a682-6c641e9a76b1" />
+
 
 9. The 2D sketch is now converted into a 3D solid model.
 Note: Enter the extrusion thickness specified by your assignment or instructor.
@@ -138,7 +147,7 @@ Note: Enter the extrusion thickness specified by your assignment or instructor.
 14. Saving the final drawing
 1. After completing the drawing, review all the views and dimensions.
 2. Add the appropriate drawing title and other required details.
-3.
+  
 
 ## OUTPUT
 <img width="1920" height="1015" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/e815123e-c388-4322-9f6d-cb4348bfacdb" />
