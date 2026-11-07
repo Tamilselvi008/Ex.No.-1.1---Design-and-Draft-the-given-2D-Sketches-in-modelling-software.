@@ -1,5 +1,5 @@
 # Ex.No.-1.1-Design and Draft the given 2D Sketches in modelling software.
-
+Date:05-10-2026
 ## AIM
 
 To sketch the given drawing with dimensions using fusion 360 tool.
@@ -24,7 +24,6 @@ Open Autodesk Fusion and create a new design.
  This circle acts as the reference geometry for creating the central inner profile.
 <img width="1920" height="1011" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/337d6154-ba59-4232-a977-5b5ec0378ee2" />
 
-  
  Creating small circles using Circular Pattern
 Select the Center Diameter Circle option again.
  Draw a small circle on the circumference of the Ø40 mm circle.
@@ -72,7 +71,6 @@ Select Create → Circle → Center Diameter Circle.
  Select the Trim option from the Modify toolbar or press T.
   <img width="1920" height="1004" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/fcc3a364-930a-466e-818d-4a59fa1f700e" />
 
-
  Remove the unwanted portions of the circle.
  Retain the required arc that forms the smooth connecting boundary.
  Check the connection between the curved portion and the adjacent sketch geometry.
@@ -84,7 +82,6 @@ Draw the lower outer circle on the vertical centreline.
  Apply a radius of 10 mm to the inner circle.
    <img width="1920" height="1006" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/492ba925-ea39-4913-9518-02508d94862b" />
 
-
  Creating the lower connecting curve
  Select the Circle tool from the Sketch Create toolbar.
  Draw another circle with a radius of 20 mm beside the lower circular feature.
@@ -95,7 +92,6 @@ Draw the lower outer circle on the vertical centreline.
  Select the Tangent Constraint option.
    <img width="1920" height="1007" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/9bcf6dc9-c0a4-4070-88f4-500f5ac5bcfc" />
 
-  
  Select the required arc and the adjacent curve or circle to establish a smooth tangent connection.
  Repeat the tangent constraint wherever necessary to obtain a smooth and continuous outer profile.
  Mirroring the sketch using the Mirror option
@@ -129,7 +125,6 @@ Select the appropriate extrusion direction.
 Click OK to complete the operation.
  <img width="1920" height="1017" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/e4ab06df-8754-41ec-a682-6c641e9a76b1" />
 
-
  The 2D sketch is now converted into a 3D solid model.
 Note: Enter the extrusion thickness specified by your assignment or instructor.
  Viewing the 3D projection
@@ -148,10 +143,8 @@ After completing the extrusion, locate the Home icon in the ViewCube area.
  After completing the drawing, review all the views and dimensions.
  Add the appropriate drawing title and other required details.
   
-
 ## OUTPUT
 <img width="1920" height="1015" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/e815123e-c388-4322-9f6d-cb4348bfacdb" />
-
 
 ## RESULT
 Thus the given sketch is drawn and drafted using fusion 360 tool.
