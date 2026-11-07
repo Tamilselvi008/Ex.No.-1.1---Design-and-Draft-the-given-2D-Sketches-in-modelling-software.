@@ -13,15 +13,17 @@ To sketch the given drawing with dimensions using fusion 360 tool.
   
 ## PROCEDURE
 
-. Creating the central circle
+Creating the central circle
 Open Autodesk Fusion and create a new design.
  Select the Create Sketch option and choose the XY plane.
+ 
    <img width="1920" height="1010" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/fe6504ee-3c44-4c66-b1db-423a450b3928" />
 
  From the Sketch toolbar, select Create → Circle → Center Diameter Circle.
  Click on the origin to set the centre of the circle.
  Draw the outer circle and specify its diameter as 40 mm using the Sketch Dimension option.
  This circle acts as the reference geometry for creating the central inner profile.
+ 
 <img width="1920" height="1011" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/337d6154-ba59-4232-a977-5b5ec0378ee2" />
 
  Creating small circles using Circular Pattern
@@ -34,9 +36,11 @@ In the Circular Pattern dialogue box, select the small circle under the Objects 
  Set the pattern quantity to 6 and the angle to 360°.
  Click OK to complete the pattern.
  Six equally spaced circles are now arranged around the central Ø40 mm circle.
+ 
  <img width="1920" height="1007" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/d61ca758-f90a-47eb-9368-1acedc7d9a81" />
 
 
+ 
  Creating the upper circular features
  Select Create → Circle → Center Diameter Circle.
  Draw the upper outer circle with a diameter of 32 mm.
@@ -44,6 +48,7 @@ In the Circular Pattern dialogue box, select the small circle under the Objects 
  Position the centre of these circles along the vertical centreline.
  Using the Sketch Dimension (D) tool, set the vertical distance between the sketch origin and the centre of the upper circular feature to 65 mm.
  Ensure that both circles are concentric and properly aligned with the vertical centreline.
+ 
    <img width="1920" height="1017" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/d022ea8a-af96-4a21-a8d5-58097efbf681" />
 
  Creating the upper curved portion
@@ -53,8 +58,10 @@ In the Circular Pattern dialogue box, select the small circle under the Objects 
  Position the circles according to the required geometry.
  Use the Trim command (T) to remove the unwanted portions of the circles.
  Carefully retain only the required curved segments that form the upper connecting profile.
+ 
    <img width="1920" height="1010" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/9dea5c4f-97fe-4452-bd7c-d96559d26b32" />
 
+ 
  Check the alignment of the curves with the upper circular feature and central profile.
  Creating the left-side circular features
 Select Create → Circle → Center Diameter Circle.
@@ -69,6 +76,7 @@ Select Create → Circle → Center Diameter Circle.
  Draw a circle with a radius of 20 mm near the left-side circular feature.
  Position it to create the required curved connection between the side feature and the main body.
  Select the Trim option from the Modify toolbar or press T.
+ 
   <img width="1920" height="1004" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/fcc3a364-930a-466e-818d-4a59fa1f700e" />
 
  Remove the unwanted portions of the circle.
@@ -80,6 +88,7 @@ Draw the lower outer circle on the vertical centreline.
  Apply a radius of 20 mm to the outer circle.
  Draw a smaller concentric circle inside it.
  Apply a radius of 10 mm to the inner circle.
+ 
    <img width="1920" height="1006" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/492ba925-ea39-4913-9518-02508d94862b" />
 
  Creating the lower connecting curve
@@ -90,6 +99,7 @@ Draw the lower outer circle on the vertical centreline.
  Retain only the required arc for the outer boundary.
  Navigate to the Constraints section of the Sketch toolbar.
  Select the Tangent Constraint option.
+ 
    <img width="1920" height="1007" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/9bcf6dc9-c0a4-4070-88f4-500f5ac5bcfc" />
 
  Select the required arc and the adjacent curve or circle to establish a smooth tangent connection.
@@ -103,6 +113,7 @@ Draw the lower outer circle on the vertical centreline.
  Click OK to complete the mirroring operation.
  The selected geometry is now reproduced symmetrically on the opposite side.
  Check both sides to ensure that the mirrored curves are properly aligned and connected.
+ 
   <img width="1920" height="997" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/e8fc1fdb-c260-445b-8596-e045c1e6bfbd" />
 
  Applying constraints and completing the sketch
@@ -113,6 +124,7 @@ Draw the lower outer circle on the vertical centreline.
 Remove any unnecessary or unwanted sketch geometry using the Trim command.
  Ensure that the outer profile is properly connected and symmetrical.
  After verifying the dimensions and constraints, click Finish Sketch in the top-right corner of the Fusion workspace.
+ 
  <img width="1920" height="1007" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/65364f46-d140-41b6-aa88-f12bb1015d89" />
 
  Extruding the completed sketch
@@ -123,6 +135,7 @@ Click on the required closed sketch profile to select the region.
 Select the appropriate extrusion direction.
  Check the preview to ensure that the profile is extruded correctly.
 Click OK to complete the operation.
+
  <img width="1920" height="1017" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/e4ab06df-8754-41ec-a682-6c641e9a76b1" />
 
  The 2D sketch is now converted into a 3D solid model.
@@ -131,9 +144,11 @@ Note: Enter the extrusion thickness specified by your assignment or instructor.
 After completing the extrusion, locate the Home icon in the ViewCube area.
  Click the Home icon to return to the default isometric viewing position.
  Observe the completed 3D model from different directions.
+ 
 <img width="1920" height="1020" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/f33372ab-2810-4acb-b70f-97219f1b0eb3" />
 
  After checking the 3D model, navigate to File → New Drawing → From Design.
+ 
    <img width="1920" height="1007" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/6a601963-58e1-4991-9237-3dc2ae522262" />
 
  Place the Front View of the model on the drawing sheet.
